@@ -1,0 +1,135 @@
+.guests-modal {
+  display: none;
+}
+
+.dates-modal {
+  display: none;
+}
+
+.price-range-modal {
+  display: none;
+}
+
+.show-modal { 
+  display: block;
+  width: 300px;
+  position: absolute;
+  border: 1px solid #cccccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin-top: 15px;
+  background-color: white;
+  z-index: 300;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-button {
+  box-sizing: border-box;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  height: 32px;
+  border: 1px solid rgb(220, 224, 224);
+  background-color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #484848;
+  margin-left: 20px;
+  margin-right: -10px;
+}
+
+.modal-button:hover {
+  background-color: rgb(220, 224, 224);
+  cursor: pointer;
+}
+
+.form-options-wrapper {
+  font-family: 'Roboto', sans-serif;
+  display: flex; 
+}
+
+.options-wrapper {
+  border-bottom: 1px solid rgb(220, 224, 224);
+  width: 100%;
+  position: fixed;
+  top: 64px;
+  left: 0px;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 73px;
+  background-color: white;
+  justify-content: space-between;
+  margin-bottom: -5px;
+}
+
+.switch-wrapper {
+  display: flex;
+  margin-top: -5px;
+  margin-right: 35px;
+}
+
+.MuiPrivateSwitchBase-input-13 {
+  color: blue;
+}
+
+.date-range-picker-button {
+  background: none;
+  border: none;
+  color: rgb(7, 146, 148);
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.date-range-picker-button:hover {
+  text-decoration: underline;
+}
+
+.DateRangePickerInput__withBorder {
+  border: none;
+}
+
+.incrementer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.increment-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.increment-button {
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border-color: rgb(7, 146, 148);
+  border-width: 1px;
+  color: rgb(7, 146, 148);
+}
+
+.modal-price-range {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.show-map-p {
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+}
+

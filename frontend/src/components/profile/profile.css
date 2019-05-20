@@ -1,0 +1,78 @@
+.profile {
+  margin-top: 87px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.profile h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.profile h2 {
+  font-size: 30px;
+}
+
+.profile ul {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+.profile li {
+  width: 400px;
+  margin: 10px;
+    border: 1px solid white;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  padding-bottom: 20px;
+}
+
+.profile li button {
+  background-color: #FF5A5F;
+  color: white;
+  border-radius: 2px;
+  margin-top: 8px; 
+  padding: 8px;
+}
+
+.profile li button:hover {
+  cursor: pointer;
+
+}
+
+.profile-booking-delete-button-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.bookings-photo{
+  margin: auto;
+  margin-bottom: 15px;
+  width:100%;
+  height:300px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.profile-booking-text {
+  padding: 0 15px;
+}
+
+.profile-booking-text h5 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: bold;
+}

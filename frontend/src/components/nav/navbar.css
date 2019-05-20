@@ -1,0 +1,100 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 64px; 
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid rgb(220, 224, 224);
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.nav-bar-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+.main-window {
+    position: relative;
+    top: 128px;
+}
+
+/* .nav-bar button {
+    height: 20px;
+} */
+
+.Links1 {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Links2 {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    float: right;
+    padding-right: 40px;
+    height: 100%;
+}
+
+.location-search-input {
+    margin-left: 30px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 350px;
+    border: 1px solid #cccccc;
+}
+
+.nav-menu-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    height: 64px;
+    margin-right: -10px;
+}
+
+.nav-menu-button {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  color: #484848;
+  text-decoration: none;
+  height: 62px !important;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+  height: 100%;
+  font-weight: bold;
+  box-sizing: content-box;
+  min-width: 55px;
+}
+
+.nav-menu-button:hover {
+    cursor: pointer;
+    border-bottom: 2px solid rgb(118, 118, 118);
+}
+
+
+.DateRangePickerInput_arrow_svg {
+    display: none;
+}
+
+.nav-bar-left h1 {
+    font-size: 42px;
+    color: #484848;
+    font-weight: bold;
+
+}
+
+.nav-bar-left h1:hover {
+    cursor: pointer;
+}

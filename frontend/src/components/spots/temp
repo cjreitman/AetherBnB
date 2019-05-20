@@ -1,0 +1,20 @@
+{/* {this.props.spots.map(spot => (
+              <li class="spot-list-item">
+                {/* add photos here */}
+                <p id="spot-list-description">{spot.description}</p>
+                <p id="spot-list-price">{spot.price} per night</p>
+                {/* <h1>{spot.average_rating}</h1> */}
+                {/* add total reviews count here */}
+              </li>
+            ))} */}
+
+            for (let x = 0; x < 10; x++) {
+      let spot = this.props.spots[0];
+        spotsList.push( < li class="spot-list-item" >
+          {/* add photos here */ }
+          < p id = "spot-list-description" > { spot.description }</p >
+            <p id="spot-list-price">{spot.price} per night</p>
+      {/* <h1>{spot.average_rating}</h1> */ }
+      {/* add total reviews count here */ }
+              </li > )
+    }

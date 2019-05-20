@@ -1,0 +1,16 @@
+.login-form {
+  margin-top: 100px;
+}
+
+.error-div {
+  max-height: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.field-error {
+  height: 16px;
+  color: red;
+}

@@ -1,0 +1,8 @@
+#nav-component{
+  z-index: 1
+}
+
+#spotshow-component{
+  z-index: 0;
+  background: pink
+}
