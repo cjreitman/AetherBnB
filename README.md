@@ -112,3 +112,5 @@ class SpotMap extends React.Component {
 ## Authors
 
 * **Colin Reitman**
+* **Trevor Steer**
+* **Valery Nguyen**
