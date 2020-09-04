@@ -30,7 +30,7 @@
     "moment": "^2.24.0",
     "mongoose": "^5.5.4",
     "mongoose-double": "0.0.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "npm": "^6.9.0",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
