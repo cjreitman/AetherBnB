@@ -24,7 +24,7 @@
     "google-map-react": "^1.1.4",
     "google-maps": "^3.3.0",
     "google-maps-react": "^2.0.2",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.11",
     "material-ui": "^0.20.2",
     "moment": "^2.24.0",
